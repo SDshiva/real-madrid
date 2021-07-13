@@ -19,7 +19,6 @@ body{
     grid-column-gap: 102px;
     width: 1143px;
     height: 436px;
-    overflow: hidden;
     margin-bottom: 50px;
 }
 
@@ -60,7 +59,7 @@ body{
     transition: transform 3s;
 }
 
-/* main section style */
+/*-------------------------------------------------- main section style -------------------------------------------- */
 
 .main-section{
     display: flex;
@@ -97,7 +96,7 @@ body{
     font-size: 16px;
 }
 
-/* footer style */
+/* -------------------------------------------------- footer style ------------------------------------------------  */
 footer{
     display: flex;
     justify-content: center;
@@ -124,5 +123,48 @@ footer{
     height: 110px;
 }
 
-/* meadia query started here  */
+/* -------------------------------------------------- meadia query started here ---------------------------------------------------- */
 
+@media only screen and (max-width: 688px) { 
+    .head-section{
+        display: flex;
+        background-color: #2D25A0;
+        justify-content: center;
+        width: 100%;
+    }
+    .container-of-title-img{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 100px;
+        padding-left: 16px;
+        margin-bottom: 200px;
+    }
+    .website-title{
+        width: 278px;
+        height: 212px;
+    }
+    .heading-title{
+        font-size: 36px;
+    }
+    .banner img{
+        width: 329px;
+        height: 259px;
+    }
+    .banner:hover {
+        transform: rotate(360deg);
+        transition: transform 3s;
+    }
+    .top-players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-section{
+        display: flex;
+
+    }
+    .footer-banner img{
+        width: 220px;
+        height: 40px;
+    }
+}
