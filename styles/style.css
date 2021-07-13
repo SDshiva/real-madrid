@@ -23,6 +23,7 @@ body{
     width: 1143px;
     height: 436px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .heading-title{
@@ -60,4 +61,41 @@ body{
 .banner:hover {
     transform:  scale(1.2) rotate(360deg);
     transition: transform 3s;
+}
+
+/* main section style */
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player-profile{
+    width: 300px;
+    height: 426px;
+    padding: 15px 15px 30px 15px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+.player-image{
+    width: 300px;
+    height: 256px;
+}
+.player-info h3{
+    color: #18191F;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-info p{
+    width: 300px;
+    height: 104px;
+    color: #6C6C6C;
+    font-weight: 500;
+    font-size: 16px;
 }
