@@ -8,12 +8,56 @@ body{
     margin: 0;
 }
 
+
 /* --------------------------  styles of header section started ------------------------------ */
 .head-section{
     background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-of-title-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+    width: 1143px;
+    height: 436px;
+    overflow: hidden;
+}
+
+.heading-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.head-paragraph{
+    color: #FFFFFF;
+    width: 120px;
+    height: 24px;
+    margin: 0px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    text-align: center;
+    transition: 2s;
+}
+
+.head-paragraph:hover{
+    color: #E02C6D;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.icon-style{
+    padding-left: 8px;
 }
 
 .banner img{
-    width: 556.01px;
+    width: 556px;
     height: 438px;
+}
+
+.banner:hover {
+    transform:  scale(1.2) rotate(360deg);
+    transition: transform 3s;
 }
