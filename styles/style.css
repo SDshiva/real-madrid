@@ -112,20 +112,16 @@ body{
     box-shadow: 5px 5px 5px lightgray;
 }
 
-
-
-
 .container-of-details-footage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     grid-column-gap: 40px;
 }
-
-
-
-
-
+.video-size{
+    width: 500px;
+    height: 300px;
+}
 
 /*--------------------------------------- Freekick footage ended --------------------------------------- */
 
@@ -201,6 +197,28 @@ footer{
     .top-players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .awesome-footage{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .container-of-details-footage{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+        align-items: center;
+    }
+    .footage-details{
+        width: 100%;
+        text-align: center;
+    }
+    .footage{
+        display: flex;
+        justify-content: center;
+    }
+    .video-size{
+        width: 350px;
+        height: 300px;
     }
     .footer-section{
         margin-top: 20px;
