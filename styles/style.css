@@ -350,6 +350,42 @@ footer{
         width: 400px;
         height: 400px;
     }
+    .scoring-animation{
+        width: 100%;
+        margin: 20px;
+    }
+    .container-of-title-post-animation{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        align-items: center;
+    }
+    .animation-title{
+        width: 100%;
+        text-align: center;
+    }
+    .post{
+        width: 100%;
+    }
+    .post img{
+        width: 100%;
+    }
+    .ball img{
+        width: 30px;
+        height: 30px;
+    }
+    .ball{
+        position: relative;
+        top: -155px;
+        left: 368px;
+    }
+    .container-of-post-ball:hover .post{
+        transform: none;
+    }
+    .container-of-post-ball:hover .ball{
+        transform: translate(-154px,-162px);
+        transition: transform 3s ease-out 1s;
+    }
     .top-players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
