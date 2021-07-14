@@ -65,12 +65,16 @@ body{
 }
 
 /*-------------------------------------------------- main section style -------------------------------------------- */
-
 .main-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 70px;
 }
+
+/* -------------------------------- This section  style is for top players --------------------------------*/
+
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -100,6 +104,20 @@ body{
     font-weight: 500;
     font-size: 16px;
 }
+
+/* ----------------------------------Top players stylesheet ended -------------------------------*/
+
+/*---------------------------------- This section style is for freekick footage --------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------------------- Freekick footage ended --------------------------------------- */
+
 
 /* -------------------------------------------------- footer style ------------------------------------------------  */
 footer{
