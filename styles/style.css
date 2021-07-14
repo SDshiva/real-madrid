@@ -39,6 +39,10 @@ body{
     text-align: center;
     transition: 2s;
 }
+.head-paragraph a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .head-paragraph:hover{
     color: #E02C6D;
@@ -118,6 +122,9 @@ footer{
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 14px;
     font-size: 32px;
+}
+.font-awesome a{
+    text-decoration: none;
     color: #969BAB;
 }
 
