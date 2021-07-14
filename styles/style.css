@@ -264,6 +264,13 @@ footer{
         transform: rotate(360deg);
         transition: transform 3s;
     }
+    .container-of-details-footage{
+        grid-column-gap: 20px;
+    }
+    .video-size{
+        width: 400px;
+        height: 400px;
+    }
     .top-players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
