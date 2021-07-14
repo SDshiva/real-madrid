@@ -251,6 +251,37 @@ footer{
         grid-row-gap: 30px;
         align-items: center;
     }
+    .scoring-animation{
+        width: 100%;
+    }
+    .container-of-title-post-animation{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        align-items: center;
+    }
+    .animation-title{
+        text-align: center;
+    }
+    .post{
+        width: 100%;
+    }
+    .post img{
+        width: 100%;
+    }
+    .ball img{
+        width: 25px;
+        height: 25px;
+    }
+    .ball{
+        position: relative;
+        top: -93px;
+        left: 190px;
+    }
+    .container-of-post-ball:hover .ball{
+        transform: translate(-100px, -131px);
+        transition: transform 3s ease-out 1s;
+    }
     .footage-details{
         width: 100%;
         text-align: center;
