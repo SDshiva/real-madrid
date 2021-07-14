@@ -11,6 +11,7 @@ body{
     background-color: #2D25A0;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .container-of-title-img{
@@ -136,6 +137,7 @@ footer{
         background-color: #2D25A0;
         justify-content: center;
         width: 100%;
+        overflow: hidden;
     }
     .container-of-title-img{
         width: 100%;
@@ -186,6 +188,7 @@ footer{
         justify-content: center;
         align-items: center;
         width: 100%;
+        overflow: hidden;
     }
     .container-of-title-img{
         width: 100%;
