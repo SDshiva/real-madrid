@@ -127,6 +127,21 @@ body{
 /*--------------------------------------- Freekick footage ended --------------------------------------- */
 
 /*------------------------------------------ animation part ------------------------------------ */
+
+.scoring-animation{
+    padding: 0 15px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.container-of-title-post-animation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 40px;
+}
+
+
+
 .ball{
     position: relative;
     bottom: 100px;
@@ -138,6 +153,7 @@ body{
 }
 .container-of-post-ball{
     overflow: hidden;
+    cursor: pointer;
 }
 .container-of-post-ball:hover .post{
     transform: scale(1.2);
