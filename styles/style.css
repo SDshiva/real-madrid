@@ -126,6 +126,32 @@ body{
 
 /*--------------------------------------- Freekick footage ended --------------------------------------- */
 
+/*------------------------------------------ animation part ------------------------------------ */
+.ball{
+    position: relative;
+    bottom: 100px;
+    left: 228px;
+}
+.ball img{
+    width: 50px;
+    height: 50px;
+}
+.container-of-post-ball{
+    overflow: hidden;
+}
+.container-of-post-ball:hover .post{
+    transform: scale(1.2);
+    transition: transform 3s ease-out 1s;
+}
+.container-of-post-ball:hover .ball{
+    transform: translate(-100px, -190px);
+    transition: transform 3s ease-out 1s;
+}
+
+
+
+
+/*-------------------------------------------- animation part ended --------------------------------*/
 
 /* -------------------------------------------------- footer style ------------------------------------------------  */
 footer{
