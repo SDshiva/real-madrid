@@ -29,7 +29,8 @@ body{
     margin-bottom: 0;
 }
 
-.head-paragraph{
+.head-paragraph a{
+    text-decoration: none;
     color: #FFFFFF;
     width: 120px;
     height: 24px;
@@ -39,12 +40,9 @@ body{
     text-align: center;
     transition: 2s;
 }
-.head-paragraph a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
-.head-paragraph:hover{
+
+.head-paragraph a:hover{
     color: #E02C6D;
     background-color: #FFFFFF;
     cursor: pointer;
@@ -109,7 +107,20 @@ body{
 
 /*---------------------------------- This section style is for freekick footage --------------------------------*/
 
+.awesome-footage{
+    margin: 160px 0px;
+    box-shadow: 5px 5px 5px lightgray;
+}
 
+
+
+
+.container-of-details-footage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 40px;
+}
 
 
 
