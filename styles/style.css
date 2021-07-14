@@ -251,8 +251,21 @@ footer{
         grid-row-gap: 30px;
         align-items: center;
     }
+    .footage-details{
+        width: 100%;
+        text-align: center;
+    }
+    .footage{
+        display: flex;
+        justify-content: center;
+    }
+    .video-size{
+        width: 350px;
+        height: 300px;
+    }
     .scoring-animation{
         width: 100%;
+        margin: 20px;
     }
     .container-of-title-post-animation{
         display: grid;
@@ -261,6 +274,7 @@ footer{
         align-items: center;
     }
     .animation-title{
+        width: 100%;
         text-align: center;
     }
     .post{
@@ -278,21 +292,12 @@ footer{
         top: -93px;
         left: 190px;
     }
+    .container-of-post-ball:hover .post{
+        transform: none;
+    }
     .container-of-post-ball:hover .ball{
-        transform: translate(-100px, -131px);
+        transform: translate(-100px, -100px);
         transition: transform 3s ease-out 1s;
-    }
-    .footage-details{
-        width: 100%;
-        text-align: center;
-    }
-    .footage{
-        display: flex;
-        justify-content: center;
-    }
-    .video-size{
-        width: 350px;
-        height: 300px;
     }
     .footer-section{
         margin-top: 20px;
