@@ -108,6 +108,7 @@ body{
 /*---------------------------------- This section style is for freekick footage --------------------------------*/
 
 .awesome-footage{
+    padding-bottom: 20px;
     margin: 160px 0px;
     box-shadow: 5px 5px 5px lightgray;
 }
